@@ -1,9 +1,5 @@
 #include <stdio.h>
-int main()
-{
-    printf("Hello World"); // Linea Commentata
+int main(){
+    printf("Hello World");
     return 0;
-    /* Codice
-    multilinea
-    commentato */
 }
