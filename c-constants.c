@@ -1,11 +1,14 @@
 #include <stdio.h>
-int main()
-{
-    const int CONST_1 = 50; //* Dichiarazione costante
-    #define PI 3.14; //* Dichiarare costante usando direttiva #define
+#define PI_GRECO 3.14
 
-    const double pi = 3.14; //* Dichiarazione costante usando const
-    printf();
+int main() {
+    printf("%s%g\n", "Valore della costante: ", PI_GRECO);
+
+    const int CONST_1 = 50;
+    printf("%s%d\n", "Valore della costante: ", CONST_1);
+
     return 0;
-
 }
+
+
+
